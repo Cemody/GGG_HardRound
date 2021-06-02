@@ -9,15 +9,15 @@ public class Hard2 {
 
     public static void frame(String[] list) {
         int size = list.length;
-        for (int j = 0; j < maxLength(list)+2; j++) {
+        for (int j = 0; j < maxLength(list)+4; j++) {
                     System.out.print("*");
                 }
         System.out.println("");
         for (int i = 0; i < size; i++) {
             while(list[i].length()!= maxLength(list)) list[i]= list[i]+" ";
-            System.out.println("*" + list[i] + "*");
+            System.out.println("* " + list[i] + " *");
         }
-        for (int j = 0; j < maxLength(list) + 2; j++) {
+        for (int j = 0; j < maxLength(list) + 4; j++) {
             System.out.print("*");
         }
     }
