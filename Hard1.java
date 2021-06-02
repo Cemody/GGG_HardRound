@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 
 /**
  *
- * @author Dexter Dela Rosa
+ * @author Cemody
  */
 public class Hard1 {
     public static void main(String[] args) {
